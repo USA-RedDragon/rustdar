@@ -23,8 +23,8 @@ reqwest = { version = "=0.12.24", features = ["json"] }
 rustdar-gps = { path = "../rustdar-gps" }
 bytemuck = { version = "=1.25.0", features = ["derive"] }
 chrono = "=0.4.44"
-egui = "=0.34.1"
-egui-wgpu = { version = "=0.34.1", features = ["winit"] }
+egui = "=0.35.0"
+egui-wgpu = { version = "=0.35.0", features = ["winit"] }
 log = "=0.4.29"
 nexrad-data = { version = "=1.0.0-rc.7", features = ["aws"] }
 nexrad-model = "=1.0.0-rc.2"
@@ -33,7 +33,7 @@ nexrad-level3 = { path = "../nexrad-level3" }
 pollster = "=0.4.0"
 tokio = { version = "=1.51.1", features = ["rt", "rt-multi-thread"] }
 winit = "=0.30.13"
-egui-winit = { version = "=0.34.1", default-features = false, features = ["clipboard", "links", "wayland", "x11"] }
+egui-winit = { version = "=0.35.0", default-features = false, features = ["clipboard", "links", "wayland", "x11"] }
 env_logger = "=0.11.10"
 wgpu = "=29.0.1"
 

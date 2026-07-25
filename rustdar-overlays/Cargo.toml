@@ -29,4 +29,4 @@ tokio = { workspace = true, features = ["macros", "rt-multi-thread"] }
 openssl-sys = { workspace = true }
 # proj-sys (via grib → proj) needs SQLite3 at build time, but the NDK sysroot
 # doesn't include SQLite3 development headers. Bundle it from source.
-libsqlite3-sys = { version = "=0.35.0", features = ["bundled"] }
+libsqlite3-sys = { version = "=0.38.1", features = ["bundled"] }

@@ -55,7 +55,7 @@ winit = "=0.30.13"
 # Adds no package: naga is already in the graph via wgpu-core. Under
 # `resolver = "2"` the extra features do not reach a plain `cargo build`,
 # because dev-dependencies are not resolved for one.
-naga = { version = "=29.0.4", default-features = false, features = [
+naga = { version = "=30.0.0", default-features = false, features = [
     "wgsl-in",
     "glsl-out",
 ] }

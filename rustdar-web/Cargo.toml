@@ -60,7 +60,7 @@ winit = { workspace = true }
 # have to agree with the copy egui-winit and wgpu link against or the generated
 # bindings do not line up; these move when that stack moves.
 wasm-bindgen = "=0.2.126"
-wasm-bindgen-futures = "=0.4.76"
+wasm-bindgen-futures = "=0.4.77"
 js-sys = "=0.3.103"
 console_error_panic_hook = "=0.1.7"
 console_log = "=1.1.0"

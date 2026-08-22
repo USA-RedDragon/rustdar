@@ -65,10 +65,10 @@ rustdar-worker = { path = "rustdar-worker" }
 rustdar-location = { path = "rustdar-location", default-features = false }
 rustdar-nmea-serial = { path = "rustdar-nmea-serial", default-features = false }
 
-egui = "=0.35.0"
-egui-wgpu = { version = "=0.35.0", default-features = false }
-egui-winit = { version = "=0.35.0", default-features = false }
-walkers = "=0.56.0"
+egui = "=0.36.1"
+egui-wgpu = { version = "=0.36.1", default-features = false }
+egui-winit = { version = "=0.36.1", default-features = false }
+walkers = "=0.58.0"
 
 ewebsock = { version = "=0.8.0", default-features = false, features = ["tls"] }
 web-time = "=1.1.0"
